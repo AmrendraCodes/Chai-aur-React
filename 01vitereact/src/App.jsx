@@ -1,10 +1,10 @@
-
-
+import Chai from "./chai"
 
 
 function App() {
 return (
-  <h1>chai aur react with | Amrendra Kumar</h1>
+  <Chai/>
+
 )
 
   
