@@ -2,12 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './components/card'
 
-function App() {
+
+function Card(props) {
+  console.log("props",props);
   return (
-    <div className="text-center p-10">
-      <h1 className="text-4xl font-bold text-blue-600">Hello Tailwind + Vite!</h1>
-    </div>
+    <>
+      <h1 className="text-3xl font-bold bg-green-600 text-white p-4 rounded-xl mb-4">Tailwind Test</h1>
+      <Card />
+      <Card />
+    
+    </>
   );
 }
 
