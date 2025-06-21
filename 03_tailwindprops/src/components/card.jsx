@@ -1,6 +1,7 @@
 import React from "react";
 
-function Card() {
+function Card({username}) {
+ console.log(username)
     return(
         <div className="max-w-xs p-6 rounded-md shadow-md bg-black">
         <img
